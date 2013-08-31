@@ -60,6 +60,7 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="QueueBrowserPlus-grailsPlugins" />
+    <orderEntry type="library" name="groovy-2.1.0" level="application" />
   </component>
 </module>
 
