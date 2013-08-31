@@ -6,7 +6,7 @@
 <div id="copingOutsidesContent">
     <ul style="padding-left: 5em">
         <g:each in="${copingOutsides}" var="copingOutside">
-            <li>${copingOutside.text}&nbsp;&nbsp;&nbsp;&nbsp;
+            <li>${copingOutside.text?.replace("\n","<br/>")}&nbsp;&nbsp;&nbsp;&nbsp;
                 <span style="font-size: .7em">
                     <g:remoteLink update="layoutBody" controller="copingOutsides" action="edit"
                                   params="[id: copingOutside.id]">edit</g:remoteLink>

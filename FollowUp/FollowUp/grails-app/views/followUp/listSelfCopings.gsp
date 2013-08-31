@@ -6,7 +6,7 @@
 <div id="selfCopingsContent">
     <ul style="padding-left: 5em">
         <g:each in="${selfCopings}" var="selfCoping">
-            <li>${selfCoping.text}&nbsp;&nbsp;&nbsp;&nbsp;
+            <li>${selfCoping.text?.replace("\n","<br/>")}&nbsp;&nbsp;&nbsp;&nbsp;
                 <span style="font-size: .7em">
                     <g:remoteLink update="layoutBody" controller="selfCopings" action="edit"
                                   params="[id: selfCoping.id]">edit</g:remoteLink>

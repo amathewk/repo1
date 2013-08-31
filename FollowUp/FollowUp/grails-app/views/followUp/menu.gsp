@@ -6,6 +6,7 @@
         <span class="menuButton"><g:remoteLink name="friendsAndFamily" update="layoutBody" controller="personalContacts" action="list"><button>Friends And Family</button></g:remoteLink></span>
         <span class="menuButton"><g:remoteLink name="professionalContacts" update="layoutBody" controller="professionalContacts" action="list"><button>Professional Contacts</button></g:remoteLink> </span>
         <span class="menuButton"><g:remoteLink name="safetyTips" update="layoutBody" controller="safetyTips" action="list"><button>Safety Tips</button></g:remoteLink> </span>
+        %{--<span class="menuButton"><g:remoteLink name="appointments" update="layoutBody" controller="appointments" action="list"><button>Appointments</button></g:remoteLink> </span>--}%
     </div>
 
 </g:if>

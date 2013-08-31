@@ -1,5 +1,5 @@
-
 <%@ page import="net.followup.PersonalContact" %>
+%{--
 <!DOCTYPE html>
 <html>
 	<head>
@@ -16,6 +16,7 @@
 				<li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
 			</ul>
 		</div>
+--}%
 		<div id="show-personalContact" class="content scaffold-show" role="main">
 			<h1><g:message code="default.show.label" args="[entityName]" /></h1>
 			<g:if test="${flash.message}">
@@ -95,5 +96,7 @@
 				</fieldset>
 			</g:form>
 		</div>
+%{--
 	</body>
 </html>
+--}%

@@ -18,14 +18,24 @@
 		<r:layoutResources />
 	</head>
 	<body>
-		<div id="grailsLogo" role="banner"><a href="/FollowUp"><img src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="Grails"/></a>
+		<div id="grailsLogo" role="banner"><a href="${createLink(controller: 'search', action: 'patientForm')}"><img src="${resource(dir: 'images', file: 'followUpLogo.png')}" alt="Grails"/></a>
+		%{--<div id="grailsLogo" role="banner"><a href="/FollowUp">Follow Up Plan</a>--}%
             <g:if test="${session['patientId']}">
                 <div style="float: right; padding: 10px">
-                    <div>ID : ${session['patientId']}</div>
-                    <div>${session['lastName']}, ${session['firstName']}</div>
+                    <div>
+                        <div style="float: left">
+                            <div>ID : ${session['patientId']}</div>
+                            <div>${session['lastName']}, ${session['firstName']}</div>
+                        </div>
+                        <div style="float: right;font-size: small;font-style: italic"><a href="${createLink(controller: 'search', action: 'patientForm')}">change</a>
+                            <span class="menuButton" style="padding-left: 30px"><g:remoteLink name="appointments" update="layoutBody" controller="appointments" action="list"><button>Appointments</button></g:remoteLink> </span>
+                        </div>
+                    </div>
                 </div>
             </g:if>
-            <g:include view="/followUp/menu.gsp"/>
+            <div style="float: none; ">
+                <g:include view="/followUp/menu.gsp"/>
+            </div>
         </div>
         <div id="layoutBody">
             <g:layoutBody/>

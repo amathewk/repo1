@@ -106,5 +106,6 @@
         <plugin name="InAppBrowser" value="org.apache.cordova.InAppBrowser" />
         <plugin name="InAppBrowser" value="org.apache.cordova.Storage" />
         <plugin name="Echo" value="com.example.TestApp.EchoPlugin" />
+        <plugin name="CalendarPlugin" value="com.redobot.plugin.CalendarPlugin"/>
     </plugins>
 </widget>

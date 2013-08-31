@@ -21,6 +21,7 @@
     <script src="https://d10ajoocuyu32n.cloudfront.net/codiqa.ext.js"></script>
 
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/calendar-plugin.js"></script>
 
     <script type="text/javascript">
 
@@ -106,6 +107,17 @@
             alert('stored in db success!');
         }
 
+        function addToCalendar() {
+
+            var title = "Test Event";
+            var location = "Nashville, TN";
+            var description = "Very interesting event.";
+            var startDateTime = "2015-09-09T16:00:00-06:00"; // ISO 8601 date
+            var endDateTime = "2015-09-09T18:00:00-06:00";
+            var cal = new CalendarPlugin;
+            cal.createEvent(title, location, description, startDateTime, endDateTime);
+        }
+
     </script>
 
 
@@ -140,7 +152,7 @@
     </div>
     <ul data-role="listview" data-divider-theme="b" data-inset="true">
         <li data-theme="c">
-            <a href="#page1" data-transition="slide">
+            <a href="appointments.html" data-transition="slide" data-ajax="false">
                 Appointments
             </a>
         </li>
@@ -150,6 +162,7 @@
             </a>
         </li>
     </ul>
+
 </div>
 </body>
 </html>

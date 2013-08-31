@@ -9,6 +9,7 @@
     <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
 
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/calendar-plugin.js"></script>
     <script type="text/javascript" charset="utf-8">
 
         // Wait for Cordova to load
@@ -20,10 +21,10 @@
         //
         function onDeviceReady() {
 //            checkConnection()
-            alert("deviceReady!");
+//            alert("deviceReady!");
             console.log('Starting onDeviceReady');
             db = window.openDatabase("test", "1.0", "Test DB", 1000000);
-            db.transaction(populateDB, dbErrCB, dbSuccessCB);
+//            db.transaction(populateDB, dbErrCB, dbSuccessCB);
 
             // phonegap plugin example
             window.echo = function(str, callback) {
@@ -109,8 +110,22 @@
             alert('Connection type: ' + states[networkState]);
         }
 
+
+        function addToCalendar() {
+
+//            alert(1);
+
+            var title = "Test Event";
+            var location = "Nashville, TN";
+            var description = "Very interesting event.";
+            var startDateTime = "2015-09-09T16:00:00-06:00"; // ISO 8601 date
+            var endDateTime = "2015-09-09T18:00:00-06:00";
+            var cal = new CalendarPlugin;
+            cal.createEvent(title, location, description, startDateTime, endDateTime);
+        }
+
         function onBodyLoad1() {
-            alert("loaded!");
+//            alert("loaded!");
         }
 
     </script>
@@ -136,6 +151,8 @@
         <a href="tel:6142264078">Call</a>
         <br/>
         <a href="google.streetview:cbll=33.741858,-84.386772&cbp=1,0,,0,1.0&mz=20">Street</a>
+        <br/>
+        <a href="javascript:addToCalendar();return false;">Add To Calendar</a>
 
         <p><a href="#" onclick="showAlert(); return false;">Show Alert</a></p>
 

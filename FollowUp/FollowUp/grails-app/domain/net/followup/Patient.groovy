@@ -9,7 +9,7 @@ class Patient {
     String lastName
     FollowUp followUp
 
-    static hasMany = [personalContacts : PersonalContact, professionalContacts : ProfessionalContact]
+    static hasMany = [personalContacts : PersonalContact, professionalContacts : ProfessionalContact, appointments: Appointment]
 
     static constraints = {
         patientId nullable: true, unique: true
