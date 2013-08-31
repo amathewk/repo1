@@ -1,0 +1,57 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Usage Report</title>
+<link rel="stylesheet" href="style/Style.css" type="text/css" />
+<script language="JavaScript" src="js/FusionCharts.js"></script>
+</head>
+
+<body>
+<table width="98%" border="0" cellspacing="0" cellpadding="3" align="center">
+  <tr> 
+    <td valign="top" class="text" align="center"> <div id="chartdiv" align="center"> 
+        FusionCharts. </div>
+      <script type="text/javascript">
+		   var chart = new FusionCharts("charts/fusion/FCF_Pie3D.swf", "ChartId", "400", "350");
+		   chart.setDataURL("data/clickData.xml");		   
+		   chart.render("chartdiv");
+		</script> </td>
+  </tr>
+  <tr>
+    <td valign="top" class="text" align="center">
+    <div id="chartdiv2" align="center"> 
+        FusionCharts. </div> 
+      <script type="text/javascript">
+		   var chart = new FusionCharts("charts/fusion/FCF_MSLine.swf", "ChartId", "600", "350");
+		   chart.setDataURL("data/urlData.xml");		   
+		   chart.render("chartdiv2");
+		</script>
+	</td>
+  </tr>
+
+  <tr>
+    <td valign="top" class="text" align="center">
+    <div id="chartdiv3" align="center"> 
+        FusionCharts. </div> 
+      <script type="text/javascript">
+		   var chart = new FusionCharts("charts/fusion/FCF_Pie3D.swf", "ChartId", "600", "350");
+		   chart.setDataURL("data/urlHitPieData.xml");		   
+		   chart.render("chartdiv3");
+		</script>
+	</td>
+  </tr>
+ 
+  <tr>
+      <td valign="top" class="text" align="center"> <div id="chartdiv4" align="center"> 
+        FusionCharts. </div>
+      <script type="text/javascript">
+		   var chart = new FusionCharts("charts/fusion/FCF_MSColumn3D.swf", "ChartId", "600", "350");
+		   chart.setDataURL("data/hitsMissesClmn3D.xml");		   
+		   chart.render("chartdiv4");
+		</script> 
+	  </td>
+  </tr>
+  
+</table>
+</body>
+</html>

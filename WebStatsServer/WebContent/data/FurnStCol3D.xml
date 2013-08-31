@@ -1,0 +1,24 @@
+<graph xAxisName='Month' yAxisName='Deliveries' caption='Delivery Report' subCaption='Jan to May' 
+ decimalPrecision='0' rotateNames='1' numDivLines='3' showValues='0' formatNumberScale='0'>
+	<categories>
+		<category name='JAN' />
+		<category name='FEB' />
+		<category name='MAR' />
+		<category name='APR' />
+		<category name='MAY' />
+	</categories>
+	<dataset seriesName='SATISFIED' color='AFD8F8' showValues='0'>
+		<set value='25601' />
+		<set value='20148' />
+		<set value='17372' />
+		<set value='35407' />
+		<set value='38105' />
+	</dataset>
+	<dataset seriesName='UNSATISFIED'  color='F6BD0F' showValues='0'>
+		<set value='574' />
+		<set value='1919' />
+		<set value='1452' />
+		<set value='1817' />
+		<set value='1114' />
+	</dataset>
+</graph>

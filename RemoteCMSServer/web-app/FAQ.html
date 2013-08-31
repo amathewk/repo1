@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>FAQ</title>
+<style type="text/css">
+	p.question {
+		background-color: #F3F8FC
+	}
+	div.answer	{
+		background-color: #F7F7F7
+	}
+	
+	ul.faqList > li {
+		padding-bottom: 20px
+	}
+</style>
+</head>
+<body>
+<center>
+	<h3>FAQ - Frequently Asked Questions</h3>
+</center>
+<ul class="faqList">
+	<li><p class="question">How do I include remoteCMS managed content on a web page ?</p>
+		<div class="answer">
+			<ol>
+				<li>
+					Add the following to the bottom of the page :
+						<pre>
+			&lt;script type="text/javascript"&gt;
+				var rcmsHost = "http://cms.soa-dna.com/jsFile";
+				document.write(unescape("%3Cscript src='" + rcmsHost + "' type='text/javascript'%3E%3C/script%3E"));
+			&lt;/script&gt;
+							
+						</pre>
+				</li>
+				<li>
+					Wherever you would like a piece of content to appear, insert the following:
+					<pre>
+			&lt;span id="welcome" class="rcms"&gt;&lt;/span&gt;
+					</pre>
+					Change the id to something appropriate. Make sure the element has a stylesheet class of rcms. 
+					You may include other css classes of your own choosing but it must have a rcms css class. 
+					<br/><pre>E.g., &lt;span id="welcome" class="someClass rcms"&gt;&lt;/span&gt;</pre>
+					You need not use a span tag. You may choose any HTML element that can contain inner HTML within it. E.g. DIV
+				</li>
+			</ol>
+		</div>
+	</li> 
+	<li><p class="question">How is content organized on RemoteCMS ?</p>
+		<div class="answer">
+			One can set up multiple sites specified by a domain name. Each site has multiple pages specified by a path.
+			Each page has multiple content ids. This id maps to the id attribute on the tag you want to replace with your content.
+		</div>
+	</li> 
+</ul>
+
+</body>
+</html>

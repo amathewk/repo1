@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/java-tech/xerces-2_9_1/xml-apis.jar"/>
+	<classpathentry kind="lib" path="F:/java-tech/xerces-2_9_1/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="E:/IBM/DB2C/java/db2policy.jar"/>
+	<classpathentry kind="lib" path="E:/IBM/DB2C/java/db2dbgm.jar"/>
+	<classpathentry kind="lib" path="E:/IBM/DB2C/java/db2java.zip"/>
+	<classpathentry kind="lib" path="E:/IBM/DB2C/java/db2qgjava.jar"/>
+	<classpathentry kind="lib" path="E:/IBM/DB2C/java/db2umplugin.jar"/>
+	<classpathentry kind="lib" path="E:/IBM/DB2C/java/db2jcc.jar"/>
+	<classpathentry kind="lib" path="E:/IBM/DB2C/java/db2jcc4.jar"/>
+	<classpathentry kind="lib" path="E:/IBM/DB2C/java/db2jcc_license_cu.jar"/>
+	<classpathentry kind="lib" path="E:/IBM/DB2C/java/sqlj.zip"/>
+	<classpathentry kind="lib" path="E:/IBM/DB2C/java/Common.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

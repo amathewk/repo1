@@ -1,0 +1,1 @@
+<<jsp:forward page="/site/list"></jsp:forward>

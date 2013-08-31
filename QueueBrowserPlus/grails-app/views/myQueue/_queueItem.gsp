@@ -1,0 +1,20 @@
+<tr>
+	<td>
+		${it.position}
+	</td>
+	<td>
+		${it.title}
+	</td>
+	<td>
+		${it.averageRating}
+	</td>
+	<td>
+		${it.releaseYear}
+	</td>
+	<td>
+		${it.rtRatings?.criticsScore}
+	</td>
+    <td>
+		${it.rtRatings?.audienceScore}
+	</td>
+</tr>

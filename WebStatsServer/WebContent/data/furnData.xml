@@ -1,0 +1,8 @@
+<graph showNames='1' caption='Next Purchase' decimalPrecision='0'  >
+   <set name='Living Room' value='20' />
+	<set name='Dining Room' value='7'  />
+    <set name='Bedroom Group' value='13' />
+    <set name='Home Office' value='11' />
+	<set name='Media/Entertainment Room' value='8' />
+    <set name='Bedding/Mattresses' value='21'/>
+</graph>

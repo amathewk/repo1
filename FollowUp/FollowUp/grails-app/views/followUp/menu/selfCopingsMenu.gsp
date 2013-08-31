@@ -1,0 +1,1 @@
+<g:remoteLink controller="selfCopings" action="create" update="selfCopingsContent"><button>New</button></g:remoteLink>

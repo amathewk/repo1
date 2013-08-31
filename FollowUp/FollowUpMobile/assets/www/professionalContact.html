@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title></title>
+
+
+    <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+
+    <!-- Extra Codiqa features -->
+    <link rel="stylesheet" href="codiqa.ext.css">
+
+    <!-- jQuery and jQuery Mobile -->
+    <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+    <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/util.js"></script>
+
+    <script type="text/javascript">
+
+
+        /*
+         {
+         id: <planId>,
+         warningSigns: {
+         item: ,
+         item: ,
+         item
+         },
+         selfCoping: {
+         item: ,
+         item:
+         },
+         copingOutside: {
+         item: ,
+         item
+         }
+
+         }
+           */
+
+
+        function onDeviceReady() {
+
+            var professionalContact = JSON.parse(window.localStorage.getItem("currentProfessionalContact"));
+            $('#contactName').append(professionalContact.firstName + " " + professionalContact.lastName );
+
+
+            if (typeof(professionalContact.cellPhoneNumber) != "undefined") {
+                $("#professionalContactContent").append(Util.createTelLinkListItem(professionalContact.cellPhoneNumber, "CALL CELL", "b"));
+            }
+            if (typeof(professionalContact.workPhoneNumber) != "undefined") {
+                $("#professionalContactContent").append(Util.createTelLinkListItem(professionalContact.workPhoneNumber, "CALL WORK", "d"));
+            }
+            if (typeof(professionalContact.address) != "undefined") {
+                $("#professionalContactContent2").append(Util.createGeoLinkListItem(professionalContact.address, "VISIT", "e"));
+            }
+
+            $("#professionalContactContent").listview("refresh");
+            $("#professionalContactContent2").listview("refresh");
+        }
+
+        function onBodyLoad() {
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+
+        $(document).ready(onBodyLoad);
+
+    </script>
+
+
+</head>
+<body>
+<!-- Home -->
+<div data-role="page" id="personalContactsPage">
+    <div data-theme="a" data-role="header">
+        <h3 id="contactName">
+
+        </h3>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview" data-divider-theme="d" data-inset="true" id="professionalContactContent">
+        </ul>
+    </div>
+
+    <div data-role="content">
+        <ul data-role="listview" data-divider-theme="d" data-inset="true" id="professionalContactContent2">
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>

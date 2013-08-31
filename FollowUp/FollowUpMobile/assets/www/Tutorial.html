@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notification Example</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+        // Wait for Cordova to load
+        //
+        document.addEventListener("deviceready", onDeviceReady, false);
+        var db;
+
+        // Cordova is ready
+        //
+        function onDeviceReady() {
+//            checkConnection()
+            alert("deviceReady!");
+            console.log('Starting onDeviceReady');
+            db = window.openDatabase("test", "1.0", "Test DB", 1000000);
+            db.transaction(populateDB, dbErrCB, dbSuccessCB);
+
+            // phonegap plugin example
+            window.echo = function(str, callback) {
+                cordova.exec(callback, function(err) {
+                    callback('Nothing to echo.');
+                }, "Echo", "echo", [str]);
+            };
+
+            console.log('Finished onDeviceReady');
+        }
+
+
+        function populateDB(tx) {
+            tx.executeSql('DROP TABLE IF EXISTS DEMO');
+            tx.executeSql('CREATE TABLE IF NOT EXISTS DEMO (id unique, data)');
+            tx.executeSql('INSERT INTO DEMO VALUES(1, "data1")')
+            tx.executeSql('INSERT INTO DEMO VALUES(2, "data2")')
+        }
+
+        function getData(tx) {
+            tx.executeSql('SELECT * FROM DEMO', [], dbSuccessQueryDB, dbErrCB);
+        }
+
+        function dbErrCB(tx, err) {
+            alert('Error processing SQL : ' + err);
+        }
+
+        function dbSuccessCB() {
+            alert('success!');
+        }
+
+        function dbSuccessQueryDB(tx, results) {
+            var len = results.rows.length;
+            console.log('db rows found : ' + len);
+            for (var i=0;i<len;i++) {
+                log('id = ' + results.rows.item(i).id);
+                log('data = ' + results.rows.item(i).data);
+            }
+
+        }
+
+        function log(msg) {
+            console.log("TT : " + msg)
+        }
+
+        // alert dialog dismissed
+        function alertDismissed() {
+            // do something
+        }
+
+        // Show a custom alertDismissed
+        //
+        function showAlert() {
+        /*    navigator.notification.alert(
+                    'You are the winner!',  // message
+                    alertDismissed,         // callback
+                    'Game Over',            // title
+                    'Done'                  // buttonName
+            );*/
+//            var ref = window.open('http://apache.org', '_blank', 'location=yes');
+//            var ref = window.open('geo:43.2342,-70.42', '_blank', 'location=yes');
+
+//            db.transaction(getData, dbErrCB);
+
+            window.echo("echome", function(echoValue) {
+                alert(echoValue == "echome"); // should alert true.
+            });
+
+        }
+
+        function checkConnection() {
+            var networkState = navigator.network.connection.type;
+
+            var states = {};
+            states[Connection.UNKNOWN]  = 'Unknown connection';
+            states[Connection.ETHERNET] = 'Ethernet connection';
+            states[Connection.WIFI]     = 'WiFi connection';
+            states[Connection.CELL_2G]  = 'Cell 2G connection';
+            states[Connection.CELL_3G]  = 'Cell 3G connection';
+            states[Connection.CELL_4G]  = 'Cell 4G connection';
+            states[Connection.NONE]     = 'No network connection';
+
+            alert('Connection type: ' + states[networkState]);
+        }
+
+        function onBodyLoad1() {
+            alert("loaded!");
+        }
+
+    </script>
+</head>
+<body onload="onBodyLoad1()">
+<div data-role="page">
+
+    <div data-role="header">
+        <h1>My Title</h1>
+    </div><!-- /header -->
+
+    <div data-role="content" data-theme="b">
+        <p>Hello world</p>
+
+        <a href="geo:33.741858,-84.386772">geo:lng,lat</a>
+        <br/>
+        <a href="geo:0,0?q=1008+Forest+Willow+Lane,Morrisville,NC+27560">geo:addr</a>
+        <br/>
+        <a href="geo:53,-9?saddr=(33.841858,-84.386772)&daddr=(33.741858,-84.386772)">Click here for route maps</a>
+        <br/>
+        <a href="http://www.cnn.com">cnn</a>
+        <br/>
+        <a href="tel:6142264078">Call</a>
+        <br/>
+        <a href="google.streetview:cbll=33.741858,-84.386772&cbp=1,0,,0,1.0&mz=20">Street</a>
+
+        <p><a href="#" onclick="showAlert(); return false;">Show Alert</a></p>
+
+        <ul data-role="listview" data-inset="true" data-filter="true">
+            <li><a href="#">Acura</a></li>
+            <li><a href="#">Audi</a></li>
+            <li><a href="#">BMW</a></li>
+            <li><a href="#">Cadillac</a></li>
+            <li><a href="#">Ferrari</a></li>
+        </ul>
+        <form>
+            <label for="slider-0">Input slider:</label>
+            <input type="range" name="slider" id="slider-0" value="25" min="0" max="100"  />
+            <a href="#" data-role="button" data-icon="star">Star button</a>
+        </form>
+    </div><!-- /content -->
+
+</div><!-- /page -->
+
+
+</body>
+</html>

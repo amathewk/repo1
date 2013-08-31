@@ -1,0 +1,1 @@
+<g:remoteLink controller="safetyTips" action="create" update="safetyTipsContent"><button>New</button></g:remoteLink>

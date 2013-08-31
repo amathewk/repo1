@@ -1,0 +1,1 @@
+<g:remoteLink controller="copingOutsides" action="create" update="copingOutsidesContent"><button>New</button></g:remoteLink>

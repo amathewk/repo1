@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Remote CMS Sample Client</title>
+</head>
+<body>
+	Remote CMS Sample client
+	<br/>
+	<br/>
+
+	<div id="welcome" class="someClass rcms">to be replaced with welcome message
+	</div>
+
+	<div id="welcome" class="someClass rcms">to be replaced with welcome message
+	</div>
+
+	<span id="aboutUs" class="someClass rcms">to be replaced with about us message
+	</span>
+
+	<br/>
+	<span id="welcome" class="someClass rcms">to be replaced with welcome message
+	</span>
+
+	<br/>
+	<span id="welcome" class="someClass">NOT to be replaced
+	</span>
+
+<script type="text/javascript">
+	
+	var rcmsHost = "http://localhost:8080/RemoteCMSServer/jsFile";
+	document.write(unescape("%3Cscript src='" + rcmsHost + "' type='text/javascript'%3E%3C/script%3E"));
+	
+</script>
+
+</body>
+</html>

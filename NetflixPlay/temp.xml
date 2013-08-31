@@ -1,0 +1,1695 @@
+<queue>
+	<etag>
+		7762450709860
+	</etag>
+	<url_template>
+		http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant?{-join|&amp;|sort|start_index|max_results}
+	</url_template>
+	<number_of_results>
+		498
+	</number_of_results>
+	<start_index>
+		0
+	</start_index>
+	<results_per_page>
+		25
+	</results_per_page>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/1/70140403
+		</id>
+		<position>
+			1
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/series/70140403"
+			rel="http://schemas.netflix.com/catalog/title" title="Law &amp; Order: Special Victims Unit" />
+		<title short="Law &amp; Order: Special Victims Unit" regular="Law &amp; Order: Special Victims Unit" />
+		<box_art small="http://cdn-1.nflximg.com/images/7733/267733.jpg"
+			medium="http://cdn-1.nflximg.com/images/6980/376980.jpg" large="http://cdn-1.nflximg.com/images/5278/595278.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70140403/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			1999
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="TV-14" term="TV-14" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Crime TV Shows" term="Crime TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Dramas" term="TV Dramas" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Mysteries" term="TV Mysteries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Courtroom TV Dramas" term="Courtroom TV Dramas" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Crime TV Dramas" term="Crime TV Dramas" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70140403/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<average_rating>
+			4.1
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70140403/seasons"
+			rel="http://schemas.netflix.com/catalog/titles.seasons" title="seasons" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70140403/episodes"
+			rel="http://schemas.netflix.com/catalog/titles.programs" title="episodes" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70140403/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link
+			href="http://www.netflix.com/Movie/Law_Order_Special_Victims_Unit/70140403"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/2/70061577
+		</id>
+		<position>
+			2
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/movies/70061577"
+			rel="http://schemas.netflix.com/catalog/title" title="This Is England" />
+		<title short="This Is England" regular="This Is England" />
+		<box_art small="http://cdn-1.nflximg.com/images/4685/1614685.jpg"
+			medium="http://cdn-1.nflximg.com/images/4686/1614686.jpg" large="http://cdn-1.nflximg.com/images/4688/1614688.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70061577/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2006
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/mpaa_ratings"
+			label="NR" term="NR" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Dramas" term="Dramas" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Independent Movies" term="Independent Movies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Crime Dramas" term="Crime Dramas" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Dramas based on real life" term="Dramas based on real life" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Independent Dramas" term="Independent Dramas" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="British Movies" term="British Movies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="20th Century Period Pieces" term="20th Century Period Pieces" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="British Dramas" term="British Dramas" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70061577/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70061577/directors"
+			rel="http://schemas.netflix.com/catalog/people.directors" title="directors" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70061577/format_availability"
+			rel="http://schemas.netflix.com/catalog/titles/format_availability"
+			title="formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70061577/awards"
+			rel="http://schemas.netflix.com/catalog/titles/awards" title="awards" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70061577/screen_formats"
+			rel="http://schemas.netflix.com/catalog/titles/screen_formats" title="screen formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70061577/languages_and_audio"
+			rel="http://schemas.netflix.com/catalog/titles/languages_and_audio"
+			title="languages and audio" />
+		<average_rating>
+			3.4
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70061577/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link href="http://www.netflix.com/Movie/This_Is_England/70061577"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/3/70003006
+		</id>
+		<position>
+			3
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/movies/70003006"
+			rel="http://schemas.netflix.com/catalog/title" title="Saturday Night Live: The Best of Will Ferrell: Vol. 2" />
+		<title short="SNL: The Best of Will Ferrell: Vol. 2"
+			regular="Saturday Night Live: The Best of Will Ferrell: Vol. 2" />
+		<box_art small="http://cdn-0.nflximg.com/images/7861/2097861.jpg"
+			medium="http://cdn-0.nflximg.com/images/7862/2097862.jpg" large="http://cdn-0.nflximg.com/images/7864/2097864.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70003006/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2004
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="TV-14" term="TV-14" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Comedies" term="TV Comedies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Sketch Comedies" term="TV Sketch Comedies" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70003006/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70003006/format_availability"
+			rel="http://schemas.netflix.com/catalog/titles/format_availability"
+			title="formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70003006/screen_formats"
+			rel="http://schemas.netflix.com/catalog/titles/screen_formats" title="screen formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70003006/languages_and_audio"
+			rel="http://schemas.netflix.com/catalog/titles/languages_and_audio"
+			title="languages and audio" />
+		<average_rating>
+			3.8
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70003006/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link
+			href="http://www.netflix.com/Movie/Saturday_Night_Live_The_Best_of_Will_Ferrell_Vol._2/70003006"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/4/60028785
+		</id>
+		<position>
+			4
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/movies/60028785"
+			rel="http://schemas.netflix.com/catalog/title" title="Saturday Night Live: The Best of Will Ferrell: Vol. 1" />
+		<title short="SNL: The Best of Will Ferrell: Vol. 1"
+			regular="Saturday Night Live: The Best of Will Ferrell: Vol. 1" />
+		<box_art small="http://cdn-1.nflximg.com/images/7848/2097848.jpg"
+			medium="http://cdn-1.nflximg.com/images/7849/2097849.jpg" large="http://cdn-1.nflximg.com/images/7851/2097851.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/60028785/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			1995
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="TV-14" term="TV-14" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Comedies" term="TV Comedies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Sketch Comedies" term="TV Sketch Comedies" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/60028785/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/60028785/format_availability"
+			rel="http://schemas.netflix.com/catalog/titles/format_availability"
+			title="formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/60028785/screen_formats"
+			rel="http://schemas.netflix.com/catalog/titles/screen_formats" title="screen formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/60028785/languages_and_audio"
+			rel="http://schemas.netflix.com/catalog/titles/languages_and_audio"
+			title="languages and audio" />
+		<average_rating>
+			3.8
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/60028785/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link
+			href="http://www.netflix.com/Movie/Saturday_Night_Live_The_Best_of_Will_Ferrell_Vol._1/60028785"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/5/27910187
+		</id>
+		<position>
+			5
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/movies/27910187"
+			rel="http://schemas.netflix.com/catalog/title" title="Saturday Night Live: The Best of Chris Farley" />
+		<title short="SNL: The Best of Chris Farley" regular="Saturday Night Live: The Best of Chris Farley" />
+		<box_art small="http://cdn-1.nflximg.com/images/7770/2097770.jpg"
+			medium="http://cdn-1.nflximg.com/images/7771/2097771.jpg" large="http://cdn-1.nflximg.com/images/7773/2097773.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/27910187/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2000
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="TV-14" term="TV-14" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Comedies" term="TV Comedies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Sketch Comedies" term="TV Sketch Comedies" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/27910187/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/27910187/format_availability"
+			rel="http://schemas.netflix.com/catalog/titles/format_availability"
+			title="formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/27910187/screen_formats"
+			rel="http://schemas.netflix.com/catalog/titles/screen_formats" title="screen formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/27910187/languages_and_audio"
+			rel="http://schemas.netflix.com/catalog/titles/languages_and_audio"
+			title="languages and audio" />
+		<average_rating>
+			3.9
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/27910187/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link
+			href="http://www.netflix.com/Movie/Saturday_Night_Live_The_Best_of_Chris_Farley/27910187"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/6/70213105
+		</id>
+		<position>
+			6
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/series/70213105"
+			rel="http://schemas.netflix.com/catalog/title" title="American Experience: We Shall Remain" />
+		<title short="American Experience: We Shall Remain" regular="American Experience: We Shall Remain" />
+		<box_art small="http://cdn-1.nflximg.com/images/3991/273991.jpg"
+			medium="http://cdn-1.nflximg.com/images/3213/383213.jpg" large="http://cdn-1.nflximg.com/images/1553/601553.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70213105/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2009
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/mpaa_ratings"
+			label="NR" term="NR" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Documentaries" term="Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Historical Documentaries" term="Historical Documentaries" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70213105/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<average_rating>
+			4.0
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70213105/seasons"
+			rel="http://schemas.netflix.com/catalog/titles.seasons" title="seasons" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70213105/episodes"
+			rel="http://schemas.netflix.com/catalog/titles.programs" title="episodes" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70213105/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link
+			href="http://www.netflix.com/Movie/American_Experience_We_Shall_Remain/70213105"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/7/70202753
+		</id>
+		<position>
+			7
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/series/70202753"
+			rel="http://schemas.netflix.com/catalog/title" title="Firefly" />
+		<title short="Firefly" regular="Firefly" />
+		<box_art small="http://cdn-1.nflximg.com/images/9766/1829766.jpg"
+			medium="http://cdn-1.nflximg.com/images/9767/1829767.jpg" large="http://cdn-1.nflximg.com/images/9769/1829769.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70202753/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2002
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="NR" term="NR" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Cult TV Shows" term="Cult TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Action &amp; Adventure" term="TV Action &amp; Adventure" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Sci-Fi &amp; Fantasy" term="TV Sci-Fi &amp; Fantasy" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70202753/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<average_rating>
+			4.2
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70202753/seasons"
+			rel="http://schemas.netflix.com/catalog/titles.seasons" title="seasons" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70202753/episodes"
+			rel="http://schemas.netflix.com/catalog/titles.programs" title="episodes" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70202753/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link href="http://www.netflix.com/Movie/Firefly/70202753" rel="alternate"
+			title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/8/70131662
+		</id>
+		<position>
+			8
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/movies/70131662"
+			rel="http://schemas.netflix.com/catalog/title" title="The Buddha: The Story of Siddhartha" />
+		<title short="The Buddha: The Story of Siddhartha" regular="The Buddha: The Story of Siddhartha" />
+		<box_art small="http://cdn-0.nflximg.com/images/9598/1339598.jpg"
+			medium="http://cdn-0.nflximg.com/images/9599/1339599.jpg" large="http://cdn-0.nflximg.com/images/9601/1339601.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70131662/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2010
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="NR" term="NR" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Documentaries" term="Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Documentaries" term="TV Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Biographical Documentaries" term="Biographical Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Historical Documentaries" term="Historical Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Religious Documentaries" term="Religious Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Spiritual Documentaries" term="Spiritual Documentaries" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70131662/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70131662/directors"
+			rel="http://schemas.netflix.com/catalog/people.directors" title="directors" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70131662/format_availability"
+			rel="http://schemas.netflix.com/catalog/titles/format_availability"
+			title="formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70131662/screen_formats"
+			rel="http://schemas.netflix.com/catalog/titles/screen_formats" title="screen formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70131662/languages_and_audio"
+			rel="http://schemas.netflix.com/catalog/titles/languages_and_audio"
+			title="languages and audio" />
+		<average_rating>
+			4.0
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70131662/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link
+			href="http://www.netflix.com/Movie/The_Buddha_The_Story_of_Siddhartha/70131662"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/9/70107499
+		</id>
+		<position>
+			9
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/movies/70107499"
+			rel="http://schemas.netflix.com/catalog/title" title="A Wednesday" />
+		<title short="A Wednesday" regular="A Wednesday" />
+		<box_art small="http://cdn-1.nflximg.com/images/3619/1323619.jpg"
+			medium="http://cdn-1.nflximg.com/images/3630/1323630.jpg" large="http://cdn-1.nflximg.com/images/3654/1323654.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70107499/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2008
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/mpaa_ratings"
+			label="NR" term="NR" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Action &amp; Adventure" term="Action &amp; Adventure" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Dramas" term="Dramas" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Foreign Movies" term="Foreign Movies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Foreign Action &amp; Adventure" term="Foreign Action &amp; Adventure" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Foreign Dramas" term="Foreign Dramas" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Indian Movies" term="Indian Movies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Bollywood Movies" term="Bollywood Movies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Hindi-Language Movies" term="Hindi-Language Movies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Bollywood Action &amp; Adventure" term="Bollywood Action &amp; Adventure" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Bollywood Dramas" term="Bollywood Dramas" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70107499/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70107499/directors"
+			rel="http://schemas.netflix.com/catalog/people.directors" title="directors" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70107499/format_availability"
+			rel="http://schemas.netflix.com/catalog/titles/format_availability"
+			title="formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70107499/screen_formats"
+			rel="http://schemas.netflix.com/catalog/titles/screen_formats" title="screen formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70107499/languages_and_audio"
+			rel="http://schemas.netflix.com/catalog/titles/languages_and_audio"
+			title="languages and audio" />
+		<average_rating>
+			3.9
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70107499/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link href="http://www.netflix.com/Movie/A_Wednesday/70107499"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/10/70136121
+		</id>
+		<position>
+			10
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/series/70136121"
+			rel="http://schemas.netflix.com/catalog/title" title="Law &amp; Order: Criminal Intent" />
+		<title short="Law &amp; Order: Criminal Intent" regular="Law &amp; Order: Criminal Intent" />
+		<box_art small="http://cdn-1.nflximg.com/images/7721/267721.jpg"
+			medium="http://cdn-1.nflximg.com/images/6968/376968.jpg" large="http://cdn-1.nflximg.com/images/5266/595266.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136121/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2001
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="TV-14" term="TV-14" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Crime TV Shows" term="Crime TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Dramas" term="TV Dramas" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Mysteries" term="TV Mysteries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Courtroom TV Dramas" term="Courtroom TV Dramas" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Crime TV Dramas" term="Crime TV Dramas" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136121/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<average_rating>
+			3.9
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136121/seasons"
+			rel="http://schemas.netflix.com/catalog/titles.seasons" title="seasons" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136121/episodes"
+			rel="http://schemas.netflix.com/catalog/titles.programs" title="episodes" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136121/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link
+			href="http://www.netflix.com/Movie/Law_Order_Criminal_Intent/70136121"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/11/70136138
+		</id>
+		<position>
+			11
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/series/70136138"
+			rel="http://schemas.netflix.com/catalog/title" title="The X-Files" />
+		<title short="The X-Files" regular="The X-Files" />
+		<box_art small="http://cdn-0.nflximg.com/images/0817/2110817.jpg"
+			medium="http://cdn-0.nflximg.com/images/0818/2110818.jpg" large="http://cdn-0.nflximg.com/images/0820/2110820.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136138/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			1993
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="TV-14" term="TV-14" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Crime TV Shows" term="Crime TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Cult TV Shows" term="Cult TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Action &amp; Adventure" term="TV Action &amp; Adventure" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Horror" term="TV Horror" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Sci-Fi &amp; Fantasy" term="TV Sci-Fi &amp; Fantasy" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136138/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<average_rating>
+			4.0
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136138/seasons"
+			rel="http://schemas.netflix.com/catalog/titles.seasons" title="seasons" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136138/episodes"
+			rel="http://schemas.netflix.com/catalog/titles.programs" title="episodes" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136138/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link href="http://www.netflix.com/Movie/The_X-Files/70136138"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/12/70101689
+		</id>
+		<position>
+			12
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/movies/70101689"
+			rel="http://schemas.netflix.com/catalog/title" title="Tell No One" />
+		<title short="Tell No One" regular="Tell No One" />
+		<box_art small="http://cdn-1.nflximg.com/images/4235/254235.jpg"
+			medium="http://cdn-1.nflximg.com/images/3482/363482.jpg" large="http://cdn-1.nflximg.com/images/6935/526935.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70101689/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2006
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/mpaa_ratings"
+			label="NR" term="NR" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Foreign Movies" term="Foreign Movies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Thrillers" term="Thrillers" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Foreign Thrillers" term="Foreign Thrillers" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="French Movies" term="French Movies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Crime Thrillers" term="Crime Thrillers" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Mysteries" term="Mysteries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="French Thrillers" term="French Thrillers" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70101689/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70101689/directors"
+			rel="http://schemas.netflix.com/catalog/people.directors" title="directors" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70101689/format_availability"
+			rel="http://schemas.netflix.com/catalog/titles/format_availability"
+			title="formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70101689/screen_formats"
+			rel="http://schemas.netflix.com/catalog/titles/screen_formats" title="screen formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70101689/languages_and_audio"
+			rel="http://schemas.netflix.com/catalog/titles/languages_and_audio"
+			title="languages and audio" />
+		<average_rating>
+			3.7
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70101689/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link href="http://www.netflix.com/Movie/Tell_No_One/70101689"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/13/70136119
+		</id>
+		<position>
+			13
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/series/70136119"
+			rel="http://schemas.netflix.com/catalog/title" title="Battlestar Galactica" />
+		<title short="Battlestar Galactica" regular="Battlestar Galactica" />
+		<box_art small="http://cdn-1.nflximg.com/images/7720/267720.jpg"
+			medium="http://cdn-1.nflximg.com/images/6967/376967.jpg" large="http://cdn-1.nflximg.com/images/5265/595265.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136119/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2004
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="TV-14" term="TV-14" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Cult TV Shows" term="Cult TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Dramas" term="TV Dramas" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Sci-Fi &amp; Fantasy" term="TV Sci-Fi &amp; Fantasy" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136119/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<average_rating>
+			4.0
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136119/seasons"
+			rel="http://schemas.netflix.com/catalog/titles.seasons" title="seasons" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136119/episodes"
+			rel="http://schemas.netflix.com/catalog/titles.programs" title="episodes" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136119/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link href="http://www.netflix.com/Movie/Battlestar_Galactica/70136119"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/14/70202573
+		</id>
+		<position>
+			14
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/series/70202573"
+			rel="http://schemas.netflix.com/catalog/title" title="Jekyll" />
+		<title short="Jekyll" regular="Jekyll" />
+		<box_art small="http://cdn-1.nflximg.com/images/3263/2103263.jpg"
+			medium="http://cdn-1.nflximg.com/images/3264/2103264.jpg" large="http://cdn-1.nflximg.com/images/3266/2103266.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70202573/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2007
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="TV-14" term="TV-14" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Thrillers" term="Thrillers" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="British TV Shows" term="British TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Miniseries" term="Miniseries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="British Movies" term="British Movies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Psychological Thrillers" term="Psychological Thrillers" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Supernatural Thrillers" term="Supernatural Thrillers" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="British Thrillers" term="British Thrillers" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70202573/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<average_rating>
+			3.2
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70202573/seasons"
+			rel="http://schemas.netflix.com/catalog/titles.seasons" title="seasons" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70202573/episodes"
+			rel="http://schemas.netflix.com/catalog/titles.programs" title="episodes" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70202573/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link href="http://www.netflix.com/Movie/Jekyll/70202573" rel="alternate"
+			title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/15/22335641
+		</id>
+		<position>
+			15
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/movies/22335641"
+			rel="http://schemas.netflix.com/catalog/title" title="National Geographic: Tigers of the Snow" />
+		<title short="Tigers of the Snow" regular="National Geographic: Tigers of the Snow" />
+		<box_art small="http://cdn-1.nflximg.com/images/1003/1281003.jpg"
+			medium="http://cdn-1.nflximg.com/images/2287/1282287.jpg" large="http://cdn-1.nflximg.com/images/4819/1284819.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/22335641/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			1997
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="TV-PG" term="TV-PG" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Children &amp; Family Movies" term="Children &amp; Family Movies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Documentaries" term="Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Science &amp; Nature TV" term="Science &amp; Nature TV" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Documentaries" term="TV Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Movies for ages 5 to 7" term="Movies for ages 5 to 7" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Movies for ages 8 to 10" term="Movies for ages 8 to 10" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Movies for ages 11 to 12" term="Movies for ages 11 to 12" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Education &amp; Guidance" term="Education &amp; Guidance" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Science &amp; Nature Documentaries" term="Science &amp; Nature Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Nature &amp; Ecology TV Documentaries" term="Nature &amp; Ecology TV Documentaries" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/22335641/format_availability"
+			rel="http://schemas.netflix.com/catalog/titles/format_availability"
+			title="formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/22335641/screen_formats"
+			rel="http://schemas.netflix.com/catalog/titles/screen_formats" title="screen formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/22335641/languages_and_audio"
+			rel="http://schemas.netflix.com/catalog/titles/languages_and_audio"
+			title="languages and audio" />
+		<average_rating>
+			3.9
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/22335641/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link
+			href="http://www.netflix.com/Movie/National_Geographic_Tigers_of_the_Snow/22335641"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/16/70140353
+		</id>
+		<position>
+			16
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/series/70140353"
+			rel="http://schemas.netflix.com/catalog/title" title="Alfred Hitchcock Presents" />
+		<title short="Alfred Hitchcock Presents" regular="Alfred Hitchcock Presents" />
+		<box_art small="http://cdn-1.nflximg.com/images/8345/268345.jpg"
+			medium="http://cdn-1.nflximg.com/images/7592/377592.jpg" large="http://cdn-1.nflximg.com/images/5889/595889.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70140353/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			1955
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="NR" term="NR" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Classic TV Shows" term="Classic TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Crime TV Shows" term="Crime TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Dramas" term="TV Dramas" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Mysteries" term="TV Mysteries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Classic TV Dramas" term="Classic TV Dramas" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Crime TV Dramas" term="Crime TV Dramas" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70140353/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<average_rating>
+			3.9
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70140353/seasons"
+			rel="http://schemas.netflix.com/catalog/titles.seasons" title="seasons" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70140353/episodes"
+			rel="http://schemas.netflix.com/catalog/titles.programs" title="episodes" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70140353/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link
+			href="http://www.netflix.com/Movie/Alfred_Hitchcock_Presents/70140353"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/17/70061970
+		</id>
+		<position>
+			17
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/movies/70061970"
+			rel="http://schemas.netflix.com/catalog/title" title="National Geographic: Inside North Korea" />
+		<title short="National Geographic: Inside North Korea" regular="National Geographic: Inside North Korea" />
+		<box_art small="http://cdn-0.nflximg.com/images/5276/245276.jpg"
+			medium="http://cdn-0.nflximg.com/images/4523/354523.jpg" large="http://cdn-0.nflximg.com/images/2819/572819.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70061970/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2006
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="TV-PG" term="TV-PG" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Documentaries" term="Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Documentaries" term="TV Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Historical Documentaries" term="Historical Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Political Documentaries" term="Political Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Social &amp; Cultural Documentaries" term="Social &amp; Cultural Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Political TV Documentaries" term="Political TV Documentaries" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70061970/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70061970/format_availability"
+			rel="http://schemas.netflix.com/catalog/titles/format_availability"
+			title="formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70061970/screen_formats"
+			rel="http://schemas.netflix.com/catalog/titles/screen_formats" title="screen formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70061970/languages_and_audio"
+			rel="http://schemas.netflix.com/catalog/titles/languages_and_audio"
+			title="languages and audio" />
+		<average_rating>
+			3.9
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70061970/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link
+			href="http://www.netflix.com/Movie/National_Geographic_Inside_North_Korea/70061970"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/18/70129360
+		</id>
+		<position>
+			18
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/movies/70129360"
+			rel="http://schemas.netflix.com/catalog/title" title="Restrepo" />
+		<title short="Restrepo" regular="Restrepo" />
+		<box_art small="http://cdn-0.nflximg.com/images/2673/262673.jpg"
+			medium="http://cdn-0.nflximg.com/images/1920/371920.jpg" large="http://cdn-0.nflximg.com/images/0269/590269.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70129360/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2010
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/mpaa_ratings"
+			label="R" term="R" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Documentaries" term="Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Military Documentaries" term="Military Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Social &amp; Cultural Documentaries" term="Social &amp; Cultural Documentaries" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70129360/directors"
+			rel="http://schemas.netflix.com/catalog/people.directors" title="directors" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70129360/format_availability"
+			rel="http://schemas.netflix.com/catalog/titles/format_availability"
+			title="formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70129360/awards"
+			rel="http://schemas.netflix.com/catalog/titles/awards" title="awards" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70129360/screen_formats"
+			rel="http://schemas.netflix.com/catalog/titles/screen_formats" title="screen formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70129360/languages_and_audio"
+			rel="http://schemas.netflix.com/catalog/titles/languages_and_audio"
+			title="languages and audio" />
+		<average_rating>
+			4.0
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70129360/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link href="http://www.netflix.com/Movie/Restrepo/70129360" rel="alternate"
+			title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/19/70012823
+		</id>
+		<position>
+			19
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/movies/70012823"
+			rel="http://schemas.netflix.com/catalog/title" title="Eddie Izzard: Unrepeatable" />
+		<title short="Eddie Izzard: Unrepeatable" regular="Eddie Izzard: Unrepeatable" />
+		<box_art small="http://cdn-1.nflximg.com/images/6005/226005.jpg"
+			medium="http://cdn-1.nflximg.com/images/5252/335252.jpg" large="http://cdn-1.nflximg.com/images/3611/553611.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70012823/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			1994
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/mpaa_ratings"
+			label="NR" term="NR" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Comedies" term="Comedies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Stand-up Comedy" term="Stand-up Comedy" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="British Movies" term="British Movies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="British Comedies" term="British Comedies" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70012823/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70012823/directors"
+			rel="http://schemas.netflix.com/catalog/people.directors" title="directors" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70012823/format_availability"
+			rel="http://schemas.netflix.com/catalog/titles/format_availability"
+			title="formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70012823/screen_formats"
+			rel="http://schemas.netflix.com/catalog/titles/screen_formats" title="screen formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70012823/languages_and_audio"
+			rel="http://schemas.netflix.com/catalog/titles/languages_and_audio"
+			title="languages and audio" />
+		<average_rating>
+			3.8
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70012823/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link
+			href="http://www.netflix.com/Movie/Eddie_Izzard_Unrepeatable/70012823"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/20/70012821
+		</id>
+		<position>
+			20
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/movies/70012821"
+			rel="http://schemas.netflix.com/catalog/title" title="Eddie Izzard: Definite Article" />
+		<title short="Eddie Izzard: Definite Article" regular="Eddie Izzard: Definite Article" />
+		<box_art small="http://cdn-1.nflximg.com/images/6004/226004.jpg"
+			medium="http://cdn-1.nflximg.com/images/5251/335251.jpg" large="http://cdn-1.nflximg.com/images/3610/553610.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70012821/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			1996
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/mpaa_ratings"
+			label="NR" term="NR" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Comedies" term="Comedies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Stand-up Comedy" term="Stand-up Comedy" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="British Movies" term="British Movies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="British Comedies" term="British Comedies" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70012821/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70012821/directors"
+			rel="http://schemas.netflix.com/catalog/people.directors" title="directors" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70012821/format_availability"
+			rel="http://schemas.netflix.com/catalog/titles/format_availability"
+			title="formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70012821/screen_formats"
+			rel="http://schemas.netflix.com/catalog/titles/screen_formats" title="screen formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70012821/languages_and_audio"
+			rel="http://schemas.netflix.com/catalog/titles/languages_and_audio"
+			title="languages and audio" />
+		<average_rating>
+			3.9
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70012821/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link
+			href="http://www.netflix.com/Movie/Eddie_Izzard_Definite_Article/70012821"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/21/70212572
+		</id>
+		<position>
+			21
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/series/70212572"
+			rel="http://schemas.netflix.com/catalog/title" title="Wallace &amp; Gromit in Three Amazing Adventures" />
+		<title short="Wallace &amp; Gromit in Three Amazing..." regular="Wallace &amp; Gromit in Three Amazing Adventures" />
+		<box_art small="http://cdn-0.nflximg.com/images/1934/2081934.jpg"
+			medium="http://cdn-0.nflximg.com/images/1935/2081935.jpg" large="http://cdn-0.nflximg.com/images/1937/2081937.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70212572/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			1996
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="TV-G" term="TV-G" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Kids' TV" term="Kids' TV" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Movies for ages 5 to 7" term="Movies for ages 5 to 7" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Movies for ages 8 to 10" term="Movies for ages 8 to 10" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Movies for ages 11 to 12" term="Movies for ages 11 to 12" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Kids' TV for ages 5 to 7" term="Kids' TV for ages 5 to 7" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Kids' TV for ages 8 to 10" term="Kids' TV for ages 8 to 10" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Kids' TV for ages 11 to 12" term="Kids' TV for ages 11 to 12" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70212572/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<average_rating>
+			3.8
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70212572/seasons"
+			rel="http://schemas.netflix.com/catalog/titles.seasons" title="seasons" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70212572/episodes"
+			rel="http://schemas.netflix.com/catalog/titles.programs" title="episodes" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70212572/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link
+			href="http://www.netflix.com/Movie/Wallace_Gromit_in_Three_Amazing_Adventures/70212572"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/22/70103418
+		</id>
+		<position>
+			22
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/movies/70103418"
+			rel="http://schemas.netflix.com/catalog/title" title="Martial Arts Master: The Life of Bruce Lee" />
+		<title short="Martial Arts Master: The Life of Bruce Lee"
+			regular="Martial Arts Master: The Life of Bruce Lee" />
+		<box_art small="http://cdn-0.nflximg.com/images/4547/254547.jpg"
+			medium="http://cdn-0.nflximg.com/images/3794/363794.jpg" large="http://cdn-0.nflximg.com/images/2143/582143.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70103418/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			1993
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/mpaa_ratings"
+			label="NR" term="NR" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Action &amp; Adventure" term="Action &amp; Adventure" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Documentaries" term="Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Martial Arts Movies" term="Martial Arts Movies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Biographical Documentaries" term="Biographical Documentaries" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Social &amp; Cultural Documentaries" term="Social &amp; Cultural Documentaries" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70103418/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70103418/directors"
+			rel="http://schemas.netflix.com/catalog/people.directors" title="directors" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70103418/format_availability"
+			rel="http://schemas.netflix.com/catalog/titles/format_availability"
+			title="formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70103418/screen_formats"
+			rel="http://schemas.netflix.com/catalog/titles/screen_formats" title="screen formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70103418/languages_and_audio"
+			rel="http://schemas.netflix.com/catalog/titles/languages_and_audio"
+			title="languages and audio" />
+		<average_rating>
+			3.9
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70103418/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link
+			href="http://www.netflix.com/Movie/Martial_Arts_Master_The_Life_of_Bruce_Lee/70103418"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/23/70140350
+		</id>
+		<position>
+			23
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/series/70140350"
+			rel="http://schemas.netflix.com/catalog/title" title="30 Days" />
+		<title short="30 Days" regular="30 Days" />
+		<box_art small="http://cdn-0.nflximg.com/images/8342/268342.jpg"
+			medium="http://cdn-0.nflximg.com/images/7589/377589.jpg" large="http://cdn-0.nflximg.com/images/5886/595886.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70140350/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2005
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="TV-MA" term="TV-MA" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Reality TV" term="Reality TV" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Investigative Reality TV" term="Investigative Reality TV" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70140350/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<average_rating>
+			3.7
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70140350/seasons"
+			rel="http://schemas.netflix.com/catalog/titles.seasons" title="seasons" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70140350/episodes"
+			rel="http://schemas.netflix.com/catalog/titles.programs" title="episodes" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70140350/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link href="http://www.netflix.com/Movie/30_Days/70140350" rel="alternate"
+			title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/24/70118368
+		</id>
+		<position>
+			24
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/movies/70118368"
+			rel="http://schemas.netflix.com/catalog/title" title="Merantau" />
+		<title short="Merantau" regular="Merantau" />
+		<box_art small="http://cdn-0.nflximg.com/images/9418/259418.jpg"
+			medium="http://cdn-0.nflximg.com/images/8665/368665.jpg" large="http://cdn-0.nflximg.com/images/7014/587014.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70118368/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2009
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/mpaa_ratings"
+			label="R" term="R" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Action &amp; Adventure" term="Action &amp; Adventure" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Foreign Movies" term="Foreign Movies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Thrillers" term="Thrillers" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Asian Action Movies" term="Asian Action Movies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Foreign Action &amp; Adventure" term="Foreign Action &amp; Adventure" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Foreign Thrillers" term="Foreign Thrillers" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Southeast Asian Movies" term="Southeast Asian Movies" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70118368/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70118368/directors"
+			rel="http://schemas.netflix.com/catalog/people.directors" title="directors" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70118368/format_availability"
+			rel="http://schemas.netflix.com/catalog/titles/format_availability"
+			title="formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70118368/screen_formats"
+			rel="http://schemas.netflix.com/catalog/titles/screen_formats" title="screen formats" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70118368/languages_and_audio"
+			rel="http://schemas.netflix.com/catalog/titles/languages_and_audio"
+			title="languages and audio" />
+		<average_rating>
+			3.6
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/movies/70118368/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link href="http://www.netflix.com/Movie/Merantau/70118368" rel="alternate"
+			title="web page" />
+	</queue_item>
+	<queue_item>
+		<id>
+			http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available/25/70136112
+		</id>
+		<position>
+			25
+		</position>
+		<link
+			href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+			rel="http://schemas.netflix.com/queues.available" title="available queue" />
+		<category
+			scheme="http://api-public.netflix.com/categories/queue_availability"
+			label="available now" term="available now">
+			Available Now
+		</category>
+		<updated>
+			1334490740
+		</updated>
+		<category scheme="http://api-public.netflix.com/categories/title_formats"
+			label="Instant" term="Instant" />
+		<link href="http://api-public.netflix.com/catalog/titles/series/70136112"
+			rel="http://schemas.netflix.com/catalog/title" title="The Office (U.K.)" />
+		<title short="The Office (U.K.)" regular="The Office (U.K.)" />
+		<box_art small="http://cdn-0.nflximg.com/images/4270/1314270.jpg"
+			medium="http://cdn-0.nflximg.com/images/4307/1314307.jpg" large="http://cdn-0.nflximg.com/images/4381/1314381.jpg" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136112/synopsis"
+			rel="http://schemas.netflix.com/catalog/titles/synopsis" title="synopsis" />
+		<release_year>
+			2001
+		</release_year>
+		<category scheme="http://api-public.netflix.com/categories/tv_ratings"
+			label="NR" term="NR" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Shows" term="TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="British TV Shows" term="British TV Shows" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="TV Comedies" term="TV Comedies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="British TV Comedies" term="British TV Comedies" />
+		<category scheme="http://api-public.netflix.com/categories/genres"
+			label="Sitcoms" term="Sitcoms" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136112/cast"
+			rel="http://schemas.netflix.com/catalog/people.cast" title="cast" />
+		<average_rating>
+			3.4
+		</average_rating>
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136112/seasons"
+			rel="http://schemas.netflix.com/catalog/titles.seasons" title="seasons" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136112/episodes"
+			rel="http://schemas.netflix.com/catalog/titles.programs" title="episodes" />
+		<link
+			href="http://api-public.netflix.com/catalog/titles/series/70136112/similars"
+			rel="http://schemas.netflix.com/catalog/titles.similars" title="similars" />
+		<link href="http://www.netflix.com/Movie/The_Office_U.K./70136112"
+			rel="alternate" title="web page" />
+	</queue_item>
+	<link
+		href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/available"
+		rel="http://schemas.netflix.com/queues.available" title="available queue" />
+	<link
+		href="http://api-public.netflix.com/users/T1__JyEskfMDDgkOldxCf708Mob4K8qdn5ZvZPGdybsXA-/queues/instant/saved"
+		rel="http://schemas.netflix.com/queues.saved" title="saved queue" />
+</queue>
+

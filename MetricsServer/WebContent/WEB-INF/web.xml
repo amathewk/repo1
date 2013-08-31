@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<display-name>
+	MetricsForesee</display-name>
+	<listener>
+		<listener-class>com.metrics.dna.foresee.listener.ForeSeeListener</listener-class>
+	</listener>
+	<servlet>
+		<description>
+		</description>
+		<display-name> 
+		ForeSeeServlet</display-name>
+		<servlet-name>ForeSeeServlet</servlet-name>
+		<servlet-class>com.metrics.dna.foresee.servlet.ForeSeeServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ForeSeeServlet</servlet-name>
+		<url-pattern>
+		/ForeSeeServlet</url-pattern>
+		<url-pattern>/ForeSee</url-pattern>
+		<url-pattern>/foresee</url-pattern>
+	</servlet-mapping>
+	
+			
+	<resource-ref>
+	  <description>
+	    Resource reference to a factory for java.sql.Connection
+	    instances that may be used for talking to a particular
+	    database that is configured in the context
+	    configuration for the web application.
+	  </description>
+	  <res-ref-name>
+	    jdbc/SageDB
+	  </res-ref-name>
+	  <res-type>
+	    javax.sql.DataSource
+	  </res-type>
+	  <res-auth>
+	    Container
+	  </res-auth>
+	</resource-ref>
+	
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	
+   <error-page>
+    <exception-type>java.lang.Throwable</exception-type>
+    <location>/error.jsp</location>
+  </error-page>
+	
+	
+	</web-app>

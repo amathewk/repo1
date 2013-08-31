@@ -1,0 +1,1 @@
+<g:remoteLink controller="warningSigns" action="create" update="warningSignsContent"><button>New</button></g:remoteLink>

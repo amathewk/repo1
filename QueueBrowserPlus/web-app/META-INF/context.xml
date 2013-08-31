@@ -1,0 +1,5 @@
+<Context path="/myqueue">
+    <ResourceLink name="jdbc/myqueue"
+                  global="jdbc/myqueue"
+                  type="javax.sql.DataSource"/>
+</Context>

@@ -1,0 +1,1 @@
+<g:remoteLink controller="personalContacts" action="create" update="personalContactsContent"><button>New</button></g:remoteLink>

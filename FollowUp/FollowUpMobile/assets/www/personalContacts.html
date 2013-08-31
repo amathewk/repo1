@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title></title>
+
+
+    <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+
+    <!-- Extra Codiqa features -->
+    <link rel="stylesheet" href="codiqa.ext.css">
+
+    <!-- jQuery and jQuery Mobile -->
+    <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+    <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+
+    <script type="text/javascript">
+
+
+        /*
+         {
+         id: <planId>,
+         warningSigns: {
+         item: ,
+         item: ,
+         item
+         },
+         selfCoping: {
+         item: ,
+         item:
+         },
+         copingOutside: {
+         item: ,
+         item
+         }
+
+         }
+           */
+
+
+        function onDeviceReady() {
+
+            var data = JSON.parse(window.localStorage.getItem("data"));
+
+            var personalContacts = data.personalContacts
+            for(var i = 0 ; i < personalContacts.length; i++) {
+//                $("#personalContactContentList").append(Util.createJsLinkListItem("goToPersonalContact(" + i + ")", professionalContacts[i].lastName + ", " + professionalContacts[i].firstName, "f"));
+                $("#personalContactContentList").append("<li data-theme='f'><a href='javascript:goToPersonalContact(" + i + ");return false;' data-transition='none' >" + personalContacts[i].lastName + ", " + personalContacts[i].firstName + "</a></li><li data-role='list-divider' role='heading'>&nbsp;</li>");
+            }
+
+            $("#personalContactContentList").listview("refresh");
+        }
+
+        function goToPersonalContact(contactIndex) {
+            var data = JSON.parse(window.localStorage.getItem("data"));
+            var personalContacts = data.personalContacts;
+            var personalContact = JSON.stringify(personalContacts[contactIndex]);
+            window.localStorage.setItem("currentPersonalContact", personalContact);
+            window.location="personalContact.html"
+//            $.mobile.changePage("personalContact.html");
+//            window.open("personalContact.html", "_self");
+        }
+
+        function onBodyLoad() {
+            document.addEventListener("deviceready", onDeviceReady, false);
+        }
+
+        $(document).ready(onBodyLoad);
+
+    </script>
+
+
+</head>
+<body>
+<!-- Home -->
+<div data-role="page" id="personalContactsPage">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Friends And Family
+        </h3>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview" data-divider-theme="d" data-inset="true" id="personalContactContentList">
+        </ul>
+    </div>
+</div>
+
+ <script>
+
+//     function onDeviceReady1() {
+//         alert(1);
+//     }
+//
+//     function onBodyLoad1() {
+//         alert(2);
+//     }
+
+
+//    alert(99);
+//    $(document).ready(onBodyLoad);
+ </script>
+
+</body>
+</html>

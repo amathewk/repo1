@@ -1,0 +1,15 @@
+<graph caption='Click hits' showNames='1' decimalPrecision='0'>
+  <set name='id=clicker1' value='4' />
+  <set name='id=clicker53' value='4' />
+  <set name='id=clicker62' value='4' />
+  <set name='id=goToHome' value='134' />
+  <set name='id=page2Navig' value='159' />
+  <set name='id=page3Navig' value='155' />
+  <set name='id=press2' value='8' />
+  <set name='id=press3' value='4' />
+  <set name='id=press4' value='25' />
+  <set name='id=press5' value='25' />
+  <set name='id=press55' value='25' />
+  <set name='id=press6' value='4' />
+  <set name='id=press66' value='29' />
+</graph>
